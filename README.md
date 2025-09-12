@@ -30,9 +30,10 @@ All other .deb packages → Required for the full PipeWire setup, ensuring that 
 
 ## Installation
 
-1. Download all `.deb` files from this repository: [pipewire-bluetooth-aac-pop-os-24-1.4.2.tar.gz](https://github.com/tiirwaa/pipewire-bluetooth-aac-pop-os-24/archive/refs/tags/1.4.2.tar.gz)
+1. Download all `.deb` files from this repository or this tar.gz:
+   [pipewire-bluetooth-aac-pop-os-24-1.4.2_custom.tar.gz](https://github.com/tiirwaa/pipewire-bluetooth-aac-pop-os-24/archive/refs/tags/1.4.2_custom.tar.gz)
 
-2. Open a terminal in the folder containing the files and run:
+3. Open a terminal in the folder containing the files and run:
 ```bash
 sudo dpkg -i *.deb
 sudo apt -f install
