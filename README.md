@@ -18,12 +18,13 @@ After installation, you can enjoy **high-quality AAC audio** on any compatible B
 
 ## Packages
 
-This repository contains multiple PipeWire `.deb` packages built for **Pop!_OS 24 / Ubuntu 24**, but **only the following two are required to enable AAC for Bluetooth audio**:
+This repository contains multiple PipeWire .deb packages built for Pop!_OS 24 / Ubuntu 24, and all of them are required for a complete installation with AAC support for Bluetooth audio:
 
-- `pipewire_1.4.2-...amd64.deb` → PipeWire daemon with **AAC support**.
-- `libspa-0.2-bluetooth_1.4.2-...amd64.deb` → SPA Bluetooth module with **AAC enabled**.
+pipewire_1.4.2-...amd64.deb → PipeWire daemon with AAC support.
 
-The other `.deb` packages are included for completeness, but they are **identical to the official Pop!_OS 24 / Ubuntu 24 packages** and **are not required** to enable AAC.
+libspa-0.2-bluetooth_1.4.2-...amd64.deb → SPA Bluetooth module with AAC enabled.
+
+All other .deb packages → Required for the full PipeWire setup, ensuring that modules, libraries, and components work correctly together.
 
 ---
 
