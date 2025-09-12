@@ -34,7 +34,7 @@ All other .deb packages → Required for the full PipeWire setup, ensuring that 
 
 2. Open a terminal in the folder containing the files and run:
 ```bash
-sudo dpkg -i pipewire_1.4.2-*.deb libspa-0.2-bluetooth_1.4.2-*.deb
+sudo dpkg -i *.deb
 sudo apt -f install
 ```
 
