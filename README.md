@@ -29,7 +29,7 @@ The other `.deb` packages are included for completeness, but they are **identica
 
 ## Installation
 
-1. Download all `.deb` files from this repository: [PipeWire Bluetooth AAC 1.4.2](https://github.com/tiirwaa/pipewire-bluetooth-aac-pop-os-24/archive/refs/tags/1.4.2.tar.gz)
+1. Download all `.deb` files from this repository: [pipewire-bluetooth-aac-pop-os-24-1.4.2.tar.gz](https://github.com/tiirwaa/pipewire-bluetooth-aac-pop-os-24/archive/refs/tags/1.4.2.tar.gz)
 
 2. Open a terminal in the folder containing the files and run:
 ```bash
