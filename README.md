@@ -39,8 +39,8 @@ sudo apt -f install
 
 3. Restart PipeWire for the changes to take effect:
 ```bash
-systemctl --user restart pipewire
-systemctl --user restart pipewire-pulse
+systemctl --user daemon-reload
+systemctl --user restart pipewire pipewire-pulse
 ```
 
 4. Connect your AAC-capable Bluetooth device and enjoy higher-quality audio.
