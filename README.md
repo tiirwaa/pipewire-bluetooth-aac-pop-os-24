@@ -1,28 +1,29 @@
 # pipewire-bluetooth-aac-pop-os-24
 
-Custom PipeWire 1.4.2 build for Pop!_OS 24 / Ubuntu 24 with **AAC Bluetooth support** enabled via **FDK-AAC**.
+Custom PipeWire 1.4.2 build for **Pop!_OS 24 / Ubuntu 24 Linux** with **AAC Bluetooth audio support** enabled via **FDK-AAC**.
 
 ---
 
 ## About
 
-By default, PipeWire on Pop!_OS / Ubuntu does **not** support AAC for Bluetooth audio. This build enables it by:
+By default, PipeWire on **Pop!_OS 24 / Ubuntu 24** does **not support AAC** for Bluetooth audio.  
+This custom build enables **high-quality AAC streaming** to Bluetooth headphones or speakers that support the AAC codec by:
 
-1. Compiling the PipeWire daemon with **FDK-AAC** support.
-2. Enabling AAC in the Bluetooth SPA module with the flag `-Dbluez5-codec-aac=enabled`.
+1. Compiling the **PipeWire daemon** with **FDK-AAC** support.
+2. Enabling **AAC** in the **Bluetooth SPA module** using the flag `-Dbluez5-codec-aac=enabled`.
 
-After installing, you can stream high-quality AAC audio to Bluetooth headphones or speakers that support the AAC codec.
+After installation, you can enjoy **high-quality AAC audio** on any compatible Bluetooth device.
 
 ---
 
 ## Packages
 
-This repository contains multiple PipeWire `.deb` packages built for Pop!_OS 24 / Ubuntu 24, but **only the following two are required to enable AAC for Bluetooth audio**:
+This repository contains multiple PipeWire `.deb` packages built for **Pop!_OS 24 / Ubuntu 24**, but **only the following two are required to enable AAC for Bluetooth audio**:
 
-- `pipewire_1.4.2-...amd64.deb` → The PipeWire daemon with AAC support.
-- `libspa-0.2-bluetooth_1.4.2-...amd64.deb` → The SPA Bluetooth module compiled with AAC enabled.
+- `pipewire_1.4.2-...amd64.deb` → PipeWire daemon with **AAC support**.
+- `libspa-0.2-bluetooth_1.4.2-...amd64.deb` → SPA Bluetooth module with **AAC enabled**.
 
-The other `.deb` packages are included for completeness but are **not needed to enable AAC**.
+The other `.deb` packages are included for completeness, but they are **identical to the official Pop!_OS 24 / Ubuntu 24 packages** and **are not required** to enable AAC.
 
 ---
 
