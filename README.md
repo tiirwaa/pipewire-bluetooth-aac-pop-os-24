@@ -42,3 +42,10 @@ systemctl --user restart pipewire-pulse
 ```
 
 4. Connect your AAC-capable Bluetooth device and enjoy higher-quality audio.
+
+
+## License / Disclaimer
+
+These packages are provided for use on Pop!_OS 24 / Ubuntu 24 to enable **AAC Bluetooth audio** in PipeWire.  
+They include **FDK-AAC**, which is subject to its own license.  
+The author is **not responsible** for how these packages are used.
