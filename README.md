@@ -35,6 +35,10 @@ All other .deb packages → Required for the full PipeWire setup, ensuring that 
 
 3. Open a terminal in the folder containing the files and run:
 ```bash
+sudo apt install ./libopenfec1_1.4.2.12+dfsg-1_amd64.deb \
+                 ./libroc0.4_0.4.0+dfsg-5_amd64.deb \
+                 ./libopenfec-dev_1.4.2.12+dfsg-1_amd64.deb \
+                 ./libroc-dev_0.4.0+dfsg-5_amd64.deb
 sudo dpkg -i *.deb
 sudo apt -f install
 ```
