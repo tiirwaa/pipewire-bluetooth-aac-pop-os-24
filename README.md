@@ -39,7 +39,7 @@ sudo apt install ./libopenfec1_1.4.2.12+dfsg-1_amd64.deb \
                  ./libroc0.4_0.4.0+dfsg-5_amd64.deb \
                  ./libopenfec-dev_1.4.2.12+dfsg-1_amd64.deb \
                  ./libroc-dev_0.4.0+dfsg-5_amd64.deb
-sudo dpkg -i *.deb
+sudo apt install ./*.deb
 sudo apt -f install
 ```
 
