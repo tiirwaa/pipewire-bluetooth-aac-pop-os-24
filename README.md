@@ -1,6 +1,6 @@
 # pipewire-bluetooth-aac-pop-os-24
 
-Custom PipeWire 1.4.2 build for **Pop!_OS 24 / Ubuntu 24 Linux** with **AAC Bluetooth audio support** enabled via **FDK-AAC**.
+Custom PipeWire 1.4.7-3 build for **Pop!_OS 24 / Ubuntu 24 Linux** with **AAC Bluetooth audio support** enabled via **FDK-AAC**.
 
 ---
 
